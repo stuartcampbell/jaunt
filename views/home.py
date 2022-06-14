@@ -10,3 +10,4 @@ router = fastapi.APIRouter()
 async def index(request: Request):
     data = {'request': request }
     return templates.TemplateResponse('index.html', data)
+x`
